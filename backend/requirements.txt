@@ -1,0 +1,11 @@
+Flask
+python-dotenv
+flask-cors
+Flask-SQLAlchemy
+psycopg-binary
+requests
+beautifulsoup4
+selenium
+flask-bcrypt
+flask-jwt-extended
+google-generativeai

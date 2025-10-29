@@ -1,0 +1,26 @@
+# === Backend (Python/Flask) ===
+backend/venv/
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/modules/__pycache__/
+backend/app/modules/admin/__pycache__/
+backend/app/modules/auth/__pycache__/
+backend/app/modules/scraping/__pycache__/
+
+# --- ARQUIVOS SENSÍVEIS ---
+# NUNCA suba o .env para o GitHub!
+backend/.env
+
+# --- Arquivos específicos do SO/Ferramentas ---
+backend/chromedriver.exe
+.DS_Store
+
+# === Frontend (React/Vite) ===
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+frontend/.env.*
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/coverage/
